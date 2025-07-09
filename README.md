@@ -1,16 +1,28 @@
-# rise_p1_taskmanagement
+# 📚 Student Task Management App
 
-A new Flutter project.
+This is a Flutter-based mobile application that allows students to manage and organize their academic tasks efficiently. Users can add, update, and delete tasks, set due dates, assign priorities, and track task completion.
 
-## Getting Started
+> ✅ This project is stored in the **master** branch.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📋 Add, edit, and delete tasks
+- 🗓 Set due dates with time
+- 🎯 Mark task priority (High / Medium / Low)
+- ✅ Track completed vs. pending tasks
+- 📦 Local storage using SQLite
+- 📱 Clean UI and user-friendly interactions
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠 Technologies Used
+
+- Flutter
+- Dart
+- SQLite (via `sqflite`)
+- `path_provider` for local path handling
+- `flutter_local_notifications` *(optional for reminders)*
+
+---
